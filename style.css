@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+    background-color: #d1a0a8;
+}
+
+header{
+    background-size: cover;
+    background-position: center;
+    height:150px 
+}
+
+ul{
+    font-size: 17px;
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    min-height: 200px;
+    margin-right:40px;
+    font-size: 18px;
+}
+
+ul li{
+    display: inline-block; 
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color:#fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color:#fff;
+}
+
+.main{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    margin-left: 5px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #000;
+    color:#fff; 
+}
+
+
+//**.meun{
+    display:none;
+    top:6%;
+    position: relative;
+}
+
+.sub-meun ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu ul{
+    display: block;
+    margin: 6px;
+}**//
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
